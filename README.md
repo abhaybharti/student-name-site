@@ -1,6 +1,6 @@
 # student-name-site
 
-# Writting Good Commit Message
+# Writing Good Commit Message
 
 feat - a new feature
 fix - a bug fix
