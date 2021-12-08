@@ -12,3 +12,10 @@ chore - updating build tasks, package manager, config etc
 
 example -
 test : added unit test for null value check
+
+For now, I know
+
+1. JavaScript
+1. NodeJS
+1. Rept.it
+1. CHALK
