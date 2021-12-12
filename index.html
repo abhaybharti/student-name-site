@@ -5,18 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abhay Bharti</title>
+
+    <!-- 1st Way to implement CSS -->
+    <!-- <style>
+      body{
+        color: red;
+      }
+    </style> -->
+
+    <!-- 3rd Way to implement CSS -->
+    <link href ="css/index.css" rel='stylesheet'/>
+
   </head>
   <body>
     <h2>@Typography</h2>
-    <h1>This is the biggest heading</h1>
+    <!-- 2nd Way to implement CSS -->
+    <!-- <h1 style="color:red">This is the biggest heading</h1> -->
+    <h1 id="lib-header">This is the biggest heading</h1>
     <h2></h2>This is the second biggest heading</h2>
-    <p>Let me show you the normal text. This is free flowing and will wrap at the end like a paragrapah</p>
+    <p >Let me show you the normal text. This is free flowing and will wrap at the end like a paragrapah</p>
     <small>This is relatively smaller text</small>
 <hr/>
 
     <h2>@container</h2>
     <h3>fluid container</h3>
     <div>This is a fluid container and it will go till the end of the page</div>
+    <p>This paragraph will have a <strong>bold</strong> text</p>
 
     <h3>center container</h3>
     <div>This is a centered container and it will go till the specified width</div>
@@ -65,11 +79,33 @@
 <header>
   <img src="images/hero.svg"/>
   <h1>Heading Inside hero</h1>
+
+  <hr>
+  <h2>@section</h2>
+  <section>
+  <h3>@white section</h3>
+  <p>This will have white brackground</p>
+</section>
+<section>
+  <h3>off white section</h3>
+  <p>This will have gray background</p>
+</section>
 </header>
 
-    <div style="height: 30vh;">
+<hr>
+<h2>@footer</h2>
+<footer>
+  <div>Some small heading inside footer</div>
+  <ul>
+    <li>socialone</li>
+    <li>socialtwo</li>
+    <li>socialthree</li>
+  </ul>
+</footer>
 
-    </div>
+    <!-- <div style="height: 30vh;">
+
+    </div> -->
 
   </body>
 </html>
